@@ -137,7 +137,7 @@ impl AppState {
                     horizontal_bottom: "*",
                 });
 
-        let ctt_style = Style::default().fg(Color::Yellow).bold();
+        let ctt_style = Style::default().fg(Color::Cyan).bold();
         let string1 = Line::from(vec![
             Span::raw("           "),
             Span::styled("CTT", ctt_style),
